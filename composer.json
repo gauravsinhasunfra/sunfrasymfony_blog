@@ -6,7 +6,8 @@
     "autoload": {
         "psr-4": {
             "AppBundle\\": "src/AppBundle",
-            "BlogBundle\\": "src/BlogBundle"
+            "BlogBundle\\": "src/BlogBundle",
+            "UserBundle\\": "src/UserBundle"
         },
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
     },
@@ -21,10 +22,15 @@
         "incenteev/composer-parameter-handler": "^2.0",
         "sensio/distribution-bundle": "^5.0.19",
         "sensio/framework-extra-bundle": "^5.0.0",
+        "symfony/apache-pack": "^1.0",
+        "symfony/form": "^3.4",
         "symfony/monolog-bundle": "^3.1.0",
+        "symfony/orm-pack": "^1.0",
         "symfony/polyfill-apcu": "^1.0",
+        "symfony/security-bundle": "^3.4",
         "symfony/swiftmailer-bundle": "^2.6.4",
         "symfony/symfony": "3.4.*",
+        "symfony/validator": "^3.4",
         "twig/twig": "^1.0||^2.0"
     },
     "require-dev": {
@@ -49,7 +55,7 @@
     },
     "config": {
         "platform": {
-            "php": "5.6"
+            "php": "7.2"
         },
         "sort-packages": true
     },
